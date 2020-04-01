@@ -1,7 +1,8 @@
 /* === COLORS ===
 #FED136 - Golden
-#F0F0F0 - Light Grey
+#F7F7F7 - Light Grey
 #FFFFFF - White
+#868686 - Light Dark Grey
 #3D3D3D - Dark Grey
 
 === FONTS ===
@@ -31,7 +32,7 @@ a {
 
 section {
     width: 100%;
-    padding: 100px 0 0 0;
+    padding: 100px 0;
 }
 
 .section-title {
@@ -55,6 +56,7 @@ section {
     font-size: 22px;
     margin: 0;
     padding: 0;
+    color: #3D3D3D;
 }
 
 .card-desc {
@@ -158,8 +160,8 @@ section {
 /* ====== Section - SERVICES ====== */
 
 .services {
+    padding-top: 100px;
     background-color: #FFFFFF;
-    color: #3D3D3D;
 }
 
 .services i {
@@ -170,4 +172,30 @@ section {
     line-height: 90px;
     border: 3px solid #FED136;
     border-radius: 50%;
+}
+
+/* ====== Section - PORTFOLIO ====== */
+
+.portfolio {
+    background-color: #F7F7F7;
+}
+
+.box {
+    margin-bottom: 150px;
+}
+
+.box img {
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+
+.box-text {
+    background-color: #FFFFFF;
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    top: 300px; 
+    left: 40px;
+    padding: 10px 0 0 0;
 }
