@@ -1,0 +1,75 @@
+/* === COLORS ===
+#FED136 - Golden
+#F0F0F0 - Light Grey
+#FFFFFF - White
+#3D3D3D - Dark Grey
+
+=== FONTS ===
+font-family: 'Leckerli One', cursive;
+font-family: 'Palanquin Dark', sans-serif;
+font-family: 'Bree Serif', serif;
+*/ 
+
+/* ====== Global ====== */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: #FFF;
+    color: #FFFFFF;
+    font-family: 'Palanquin Dark', sans-serif;
+}
+
+/* ====== Navigation ====== */
+
+/* ====== Splash ====== */
+
+.splash {
+    height: 100vh;
+    position: relative;
+    background-image: url(/images/splash.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.splash-inner {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.splash h1 {
+    margin-top: -50px;
+    font-size: 90px;
+}
+
+.splash h2 {
+    font-family: 'Bree Serif', serif;
+    font-size: 50px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.splash button {
+    margin-top: -40px;
+    background: #FED136;
+    font-size: 20px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+    padding: 25px 55px;
+    font-weight: 700;
+}
+
+.splash button:hover {
+    box-shadow: 0 0 20px #FED136;
+    color: #3D3D3D;
+    transition: 0.6s;
+}
