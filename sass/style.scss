@@ -69,6 +69,16 @@ section {
     padding: 5px 0 0 0;
 }
 
+ul {
+    margin: 0;
+    list-style-type: none;
+    display: inline-block;
+}
+
+li {
+    display: inline-block;
+}
+
 /* ====== Splash ====== */
 
 .splash {
@@ -123,14 +133,10 @@ section {
 }
 
 .navigation ul {
-    margin: 0;
-    list-style-type: none;
-    display: inline-block;
     width: 80%;
 }
 
 .navigation li {
-    display: inline-block;
     padding-right: 20px;
     color: #FFFFFF;
     font-size: 16px;
@@ -174,6 +180,13 @@ section {
     border-radius: 50%;
 }
 
+.services i:hover {
+    color: #FFFFFF;
+    box-shadow: 0 0 20px #FED136;
+    background-color: #FED136;
+    transition: 0.6s;
+}
+
 /* ====== Section - PORTFOLIO ====== */
 
 .portfolio {
@@ -198,4 +211,35 @@ section {
     top: 300px; 
     left: 40px;
     padding: 10px 0 0 0;
+}
+
+.box-text:hover {
+    box-shadow: 0 0 20px #FED136;
+    background-color: #FED136;
+    transition: 0.6s;
+}
+
+/* ====== FOOTER ====== */
+
+footer {
+    color: #3D3D3D;
+    margin: 40px 5px 40px 5px;
+}
+
+footer i {
+    margin: 0 5px 0 5px;
+    padding: 12.5px;
+    color: #FFFFFF;
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #3D3D3D;
+    border-radius: 50%;
+}
+
+footer i:hover {
+    box-shadow: 0 0 20px #FED136;
+    background-color: #FED136;
+    transition: 0.6s;
 }
