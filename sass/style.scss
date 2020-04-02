@@ -231,6 +231,10 @@ footer {
     margin: 40px 5px;
 }
 
+footer ul {
+    margin-left: -40px;
+}
+
 footer i {
     margin: auto 5px;
     padding: 12.5px;
@@ -272,7 +276,7 @@ footer i:hover {
 @media (max-width: 1199px) {
 
     ul {
-        margin: 20px auto;
+        margin: 20px 20px 0 0 ;
     }
 
     li {
@@ -310,6 +314,14 @@ footer i:hover {
 
     .services p {
         margin-bottom: 50px;
+    }
+
+    footer ul {
+        margin-right: 0;
+    }
+
+    footer li {
+        display: inline-block;
     }
 }
 
