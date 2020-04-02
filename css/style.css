@@ -74,6 +74,7 @@ ul {
 }
 
 li {
+  margin: 0;
   display: inline-block;
 }
 
@@ -84,6 +85,10 @@ li {
   background-image: url(/images/splash.jpg);
   background-position: center center;
   background-size: cover;
+}
+
+.slpash img {
+  object-fit: cover;
 }
 
 .splash-inner {
@@ -216,11 +221,11 @@ li {
 /* ====== FOOTER ====== */
 footer {
   color: #3D3D3D;
-  margin: 40px 5px 40px 5px;
+  margin: 40px 5px;
 }
 
 footer i {
-  margin: 0 5px 0 5px;
+  margin: auto 5px;
   padding: 12.5px;
   color: #FFFFFF;
   font-size: 25px;
@@ -235,5 +240,65 @@ footer i:hover {
   box-shadow: 0 0 20px #FED136;
   background-color: #FED136;
   transition: 0.6s;
+}
+
+/* ====== MEDIA ====== */
+@media (max-width: 575px) {
+  .box-text {
+    left: 92.5px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .box-text {
+    left: 120px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .box-text {
+    left: 210px;
+  }
+}
+
+@media (max-width: 1199px) {
+  ul {
+    margin: 20px auto;
+  }
+  li {
+    display: block;
+    margin: 10px auto;
+  }
+  .splash-title {
+    margin-top: -50px;
+    font-size: 45px;
+    line-height: 1em;
+    margin: 10px 0;
+  }
+  .splash-subtitle {
+    margin-top: 200px;
+    font-size: 25px;
+  }
+  .section-title {
+    font-size: 35px;
+  }
+  .section-subtitle {
+    font-size: 20px;
+  }
+  .splash button {
+    margin: 40px auto -80px auto;
+  }
+  section {
+    padding: 25px 0;
+  }
+  .services p {
+    margin-bottom: 50px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .box-text {
+    left: 330px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
